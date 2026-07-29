@@ -1,14 +1,14 @@
 {
   "homepage.title": {
-    "message": "Curvine - High-Performance Distributed Caching System",
+    "message": "Curvine - AI-Native & Cloud-Native FileSystem",
     "description": "The homepage title"
   },
   "homepage.hero.title": {
-    "message": "High-Performance Distributed Caching System",
+    "message": "AI-Native & Cloud-Native FileSystem",
     "description": "The hero title on the homepage"
   },
   "homepage.hero.subtitle": {
-    "message": "Curvine is a high-performance distributed caching system implemented in Rust, designed for low-latency and high-throughput workloads with powerful data governance capabilities.",
+    "message": "Curvine is a high-performance file semantic layer for cloud object storage, integrated with high-speed cache.",
     "description": "The hero subtitle on the homepage"
   },
   "homepage.hero.getStarted": {
@@ -76,12 +76,12 @@
     "description": "Large model inference use case description"
   },
   "homepage.usecases.olap.title": {
-    "message": "OLAP Engine Query Acceleration",
-    "description": "OLAP engine use case title"
+    "message": "Agent Native Storage on Cloud",
+    "description": "Agent native storage use case title"
   },
   "homepage.usecases.olap.description": {
-    "message": "Provides high-speed caching for analytical databases and OLAP engines, significantly improving complex query performance and reducing data analysis time.",
-    "description": "OLAP engine use case description"
+    "message": "Provides high-performance cloud object storage accessed like a local disk for AI agents, enabling fast access to datasets, model artifacts, and contextual data while improving scalability and reducing cloud storage latency.",
+    "description": "Agent native storage use case description"
   },
   "homepage.usecases.bigdata.title": {
     "message": "Big Data Computing",
@@ -96,27 +96,27 @@
     "description": "Performance section title"
   },
   "homepage.performance.subtitle": {
-    "message": "Curvine delivers industry-leading performance metrics that set new standards for distributed caching systems.",
+    "message": "Curvine supports 5 billion small files in a single cluster, delivers 100K+ QPS, keeps latency at 100us, and uses only 1 GB of memory.",
     "description": "Performance section subtitle"
   },
   "homepage.performance.latency": {
-    "message": "Average Latency",
+    "message": "Latency",
     "description": "Latency performance metric"
   },
   "homepage.performance.ops": {
-    "message": "Operations/sec",
+    "message": "Stable QPS",
     "description": "Operations per second metric"
   },
   "homepage.performance.uptime": {
-    "message": "Uptime SLA",
-    "description": "Uptime performance metric"
+    "message": "Single-Cluster Small Files",
+    "description": "Single-cluster small files scale performance metric"
   },
   "homepage.gettingstarted.title": {
     "message": "Get Started in Minutes",
     "description": "Getting started section title"
   },
   "homepage.gettingstarted.subtitle": {
-    "message": "Deploy Curvine quickly with our comprehensive documentation and tools.",
+    "message": "Start a local Curvine Docker demo with one command, then move to production deployment when you are ready.",
     "description": "Getting started section subtitle"
   },
   "homepage.gettingstarted.step1.title": {
@@ -148,7 +148,7 @@
     "description": "CTA section title"
   },
   "homepage.cta.subtitle": {
-    "message": "Download now and experience the high-performance distributed caching system that Curvine brings.",
+    "message": "Download now and experience Curvine's high-performance file semantic layer for cloud object storage.",
     "description": "CTA section subtitle"
   },
   "homepage.cta.download": {
@@ -481,5 +481,49 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "homepage.hero.kicker": {
+    "message": "Rust systems software for data acceleration",
+    "description": "Hero eyebrow text"
+  },
+  "homepage.visual.chip.label": {
+    "message": "DISTRIBUTED CACHE",
+    "description": "Hero chip label"
+  },
+  "homepage.visual.modules.agentic": {
+    "message": "Agentic FileSystem",
+    "description": "Agentic filesystem module label"
+  },
+  "homepage.visual.modules.nodes": {
+    "message": "AI/ML Pipelines Accelerate",
+    "description": "AI and ML pipelines acceleration module label"
+  },
+  "homepage.visual.modules.inference": {
+    "message": "LLM Inference Accelerate",
+    "description": "LLM inference acceleration module label"
+  },
+  "homepage.visual.modules.aiNative": {
+    "message": "AI-Native FileSystem",
+    "description": "AI-native filesystem module label"
+  },
+  "homepage.visual.modules.pipeline": {
+    "message": "Cloud-Native Storage",
+    "description": "Cloud-native storage module label"
+  },
+  "homepage.gettingstarted.command.eyebrow": {
+    "message": "Run this in your terminal",
+    "description": "homepage.gettingstarted.command.eyebrow"
+  },
+  "homepage.gettingstarted.command.copied": {
+    "message": "Copied",
+    "description": "Copied install command button feedback"
+  },
+  "homepage.gettingstarted.command.copy": {
+    "message": "Copy",
+    "description": "homepage.gettingstarted.command.copy"
+  },
+  "homepage.gettingstarted.command.note": {
+    "message": "If Docker is available on your machine, run the following command in your terminal, then follow the on-screen instructions to start a local Curvine demo cluster.",
+    "description": "homepage.gettingstarted.command.note"
   }
 }

@@ -63,6 +63,7 @@ const config: Config = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarCount: 'ALL',
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -161,8 +162,8 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Curvine Project Authors.<br/>
-                  Open source under Apache License 20. Built with Docusaurus.`
+      copyright: `Copyright © Curvine a Series of LF Projects, LLC<br/>
+                  For website terms of use, trademark policy and other project policies please see <a href="https://lfprojects.org/policies/">lfprojects.org/policies/</a>.`
     },
     prism: {
       theme: prismThemes.github,
